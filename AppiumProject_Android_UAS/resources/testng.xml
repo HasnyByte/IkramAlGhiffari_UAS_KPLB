@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UAS Appium Android Test Suite" verbose="1" parallel="false">
+    <test name="Skill2Lead AndroidDemoApp Tests">
+        <classes>
+            <class name="tests.LaunchTest"/>
+            <class name="tests.HomeTest"/>
+            <class name="tests.InteractionTest"/>
+            <class name="tests.UiValidationTest"/>
+        </classes>
+    </test>
+</suite>
